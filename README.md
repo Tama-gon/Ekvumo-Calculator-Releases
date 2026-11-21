@@ -1,43 +1,24 @@
 # Ekvumo Calculator
 
-## English
+**English** · [Русский](README.ru.md)
 
-Ekvumo Calculator is a desktop calculator for mathematical expressions and calculations with units. It is designed for everyday use and engineering work, with a visual formula editor and quick keyboard access.
+**An engineering calculator for Windows with calculation history.** Open it with `NumLock`, enter formulas in standard mathematical notation, and calculate with units.
 
-### Features
+[**Download for Windows**](https://github.com/Tama-gon/Ekvumo-Calculator-Releases/releases)
 
-- Visual editing of expressions with fractions, powers, roots, and mathematical functions.
-- Calculations with units and conversion of results to a chosen unit.
-- Calculation history, copying results, and restoring your work between sessions.
-- Quick access using NumLock or a custom keyboard shortcut.
-- Optional startup with Windows and configurable NumLock behavior.
+![Ekvumo showing a pressure calculation as a fraction with a result of 625 kPa](docs/images/ekvumo-main-en.png)
 
-**Platform:** Windows 11 x64. The installer includes the required .NET runtime.
+## Features
 
-**Status:** Beta. Features and behavior may change as development continues.
+- **Open with `NumLock`.** Press once to show or hide the calculator. Num Lock stays on. You can assign a different shortcut.
+- **Formula editor.** Enter and edit fractions, powers, and roots in standard mathematical notation.
+- **Calculations with units.** Enter `5*kN/(0.4*m*20*mm)` to get `625 kPa`.
+- **Currencies as units.** Convert amounts and prices per unit at current exchange rates, for example from `USD/m²` to `EUR/m²`.
+- **Minimalist interface.** A compact layout keeps the formula, result, and history in view.
+- **Autocomplete suggestions.** As you type, a pop-up list suggests functions, constants, and units.
 
-This repository hosts official installers and update packages. Installed applications can check for new versions through GitHub Releases.
+## Installation
 
-[Download Ekvumo Calculator](https://github.com/TamagonRus/Ekvumo-Calculator-Releases/releases)
+Download `Ekvumo.Calculator-beta-Setup.exe` from the release’s Assets section and run it. Requires Windows 11 x64. The installer includes .NET. [SourceCraft mirror](https://grand-storm.sourcecraft.site/ekvumo-calculator/)
 
----
-
-## Русский
-
-Ekvumo Calculator — настольный калькулятор математических выражений и вычислений с единицами измерения. Он предназначен для повседневных и инженерных расчётов, предлагает визуальный редактор формул и быстрый вызов с клавиатуры.
-
-### Возможности
-
-- Визуальное редактирование выражений с дробями, степенями, корнями и математическими функциями.
-- Вычисления с единицами измерения и перевод результата в выбранную единицу.
-- История вычислений, копирование результатов и восстановление работы между запусками.
-- Быстрый вызов через NumLock или настраиваемое сочетание клавиш.
-- Необязательная автозагрузка Windows и настройка удержания NumLock.
-
-**Платформа:** Windows 11 x64. Необходимый .NET Runtime включён в установщик.
-
-**Статус:** Бета-версия. Возможности и поведение приложения могут меняться по мере разработки.
-
-В этом репозитории размещаются официальные установщики и пакеты обновлений. Установленное приложение может проверять наличие новых версий через GitHub Releases.
-
-[Скачать Ekvumo Calculator](https://github.com/TamagonRus/Ekvumo-Calculator-Releases/releases)
+The interface is available in English and Russian.
